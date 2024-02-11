@@ -1,5 +1,5 @@
 # Transportation Pricing Calculator
-## This code repository contains a set of JavaScript functions designed to calculate various aspects of transportation pricing based on different parameters. These functions can be used individually or collectively to determine the total price for a transportation service.
+- This code repository contains a set of JavaScript functions designed to calculate various aspects of transportation pricing based on different parameters. These functions can be used individually or collectively to determine the total price for a transportation service.
 
 # Functions
 
