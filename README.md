@@ -3,29 +3,29 @@ This code repository contains a set of JavaScript functions designed to calculat
 
 # Functions :
 
-- HelperPrice
+- HelperPrice : 
 Calculates the price for hiring helpers based on total hours, helper price per hour, and the number of helpers.
 
-- farePrice
+- farePrice : 
 Calculates the fare price using the quote price and a fare price rate.
 
-- walkingDistancePrice
+- walkingDistancePrice : 
 Calculates the price based on walking distance, walking meter distance price, and total cubic meter.
 
-- levelPrice
+- levelPrice : 
 Calculates the price based on total cubic meter, cubic meter price, number of levels, and level compound rate.
 
-- productCoefficient
+- productCoefficient : 
 Calculates the product coefficient based on total cubic meter and product loading/unloading rate.
 
-- distancePrice
+- distancePrice : 
 Calculates the price based on total distance in kilometers and distance price per kilometer.
 
-- quotePrice
+- quotePrice : 
 Calculates the total quote price based on walking distance price, level price, distance price, and product price.
 
-- checkMinimumPrice
+- checkMinimumPrice : 
 Checks if the total quote price is less than a specified minimum price and returns the higher of the two.
 
-- Usage
+- Usage : 
 These functions can be imported and used in your JavaScript projects as needed. Simply import the desired functions and pass the required parameters to get the calculated prices.
