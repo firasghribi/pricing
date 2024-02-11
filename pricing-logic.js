@@ -146,20 +146,7 @@ async function handler(req, res) {
       coefficients.fareCoefficient.priceOfFare
     );
     
-    console.log("totalQuotePrice=>",totalQuotePrice)
-    console.log("totalFarePrice=>",totalFarePrice)
-    console.log("totalQuotePrice=>",totalQuotePrice)
-    console.log("coefficients.minimumPrice.priceOfPriceFloor=>",coefficients.minimumPrice.priceOfPriceFloor)
-    
-    const forTest = {
-    totalWalkingDistancePrice:  totalWalkingDistancePrice.reduce((a, b) => a + b, 0),
-   totalLevelPrice:  totalLevelPrice.reduce((a, b) => a + b, 0),
-    totalDistancePrice : totalDistancePrice,
-     totalProductPrice :  totalProductPrice,
-     }
-
     res.status(200).json({
-     forTest,
       coefficients: coefficients,
       quotePrice: totalQuotePrice.toFixed(2),
       farePrice: totalFarePrice.toFixed(2),
